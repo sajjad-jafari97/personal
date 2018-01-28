@@ -1,0 +1,640 @@
+*{margin:0;
+
+  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+
+  }
+
+  h1, h2, h3, h4, h5, h6{
+    font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+
+  }
+
+.sec1{
+  background-image:  url(../image/ale.jpg)  ;
+  background-repeat: no-repeat;
+  background-size:cover;
+  position: fixed;
+
+  height: 55vw;
+
+}
+
+
+.sec2{
+  height: 55vw;
+  background-image:  url(../image/back2-sec2.jpg) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sec3{
+  height: auto;
+
+}
+.sec4{
+  height: 110vw;
+  /*background-color: #b8c3d6*/
+  background-image:  url(../image/back-sec4.jpg) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+
+
+
+footer{
+  height: 520px;
+
+}
+
+
+
+/*.git{
+  height: 20vw;
+  background: #69768c
+}*/
+
+
+
+
+#la{
+  color: #b5b0ad;
+  font-size: 20px;
+  transition: 0.4s;
+}
+#la:hover{
+  color: #ffffff;
+
+}
+
+#sajjad{
+  float: right;
+  color: white;
+  margin-right: 20px
+}
+
+#type{
+  margin-top: 240px;
+  height: 15vw;
+
+}
+#type .typewrite {
+  color: white;
+  font-weight: bold;
+  font-size: 4.6vw;
+}
+/*.find{
+  height: 40px;
+  background: #1da398;
+  font-size: 15px;
+  text-align: center;
+  color: white;
+  font-family: monospace;
+  border-radius: 10px
+
+}*/
+
+#type .btn{
+  background: #1da398;
+  border-radius: 20px;
+  text-align: center;
+  width: 20%;
+  font-size: 1.2vw;
+  transition: 0.8s;
+}
+
+#type .btn:hover{
+  background-color: #254b87
+}
+
+
+#art-about{
+  height: 30vw;
+  margin-top: 100px
+
+}
+#art-portfolio{
+  margin-top: 80px;
+
+}
+
+#text-portfolio{
+margin-top: 60px;
+height: 10vw;
+color: white
+}
+
+.art1{
+  margin-top: 70px
+}
+
+img{
+  height: 20vw;
+  color: black
+
+}
+
+#icon-skills{
+  margin-top: 30px
+}
+.work{
+  text-align:center;
+  color:white;
+  font-weight: bold;
+  margin-top: 90px;
+  font-size: 30px
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 15px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  color: #42f468 ;
+  cursor: pointer;
+  /*padding: 15px;*/
+  border-radius: 60px;
+
+  transition: 0.5s
+}
+
+.contac{
+  margin-top: 30px
+}
+
+#myBtn:hover {
+  color: #1a7a31;
+}
+
+#hr{
+  border-top: 1px solid #1da398;
+  width: 70px;
+  margin: auto;
+}
+
+
+
+#text-about{
+  height: 10vw;
+  margin-top: 50px
+}
+
+#text2-about{
+  height: 10vw;
+  margin-top: 10px
+}
+
+  #text-about p{
+  color: white;
+  font-size: 2.2vw
+
+}
+
+
+
+ #text2-about p{
+   color: white;
+   font-size: 1.5vw
+ }
+
+#resume{
+  width: 115px;
+  height: 50px;
+  padding-top: 12px;
+  margin-top: 50px;
+  border-radius: 30px;
+  background: white;
+  border-color: white;
+  color: #1da398;
+  font-weight: bold;
+  transition: 0.5s
+}
+
+#resume:hover{
+  background: #1da398;
+  border-color: #1da398;
+  color: white
+}
+
+
+.devicons {
+  font-size: 6rem;
+}
+
+
+
+header .navbar-default{
+  border-color: none;
+  border: none
+}
+
+
+#skill-art{
+  height: 50vw;
+  margin-top: 90px
+}
+
+.section-heading{
+font-size: 30px;
+font-weight: bold
+}
+
+
+
+
+
+.cont {
+  position: relative;*/
+  width: 50%;
+
+  }
+
+.image {
+  display: block;
+  width: 100%;
+  height: 25vw;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #304956;
+  opacity: 0.9;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.cont:hover .overlay {
+  height: 100%;
+}
+
+.text {
+  white-space: nowrap;
+  color: white;
+  font-size: 1.9vw;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+
+.touch{
+  text-align: center;
+  margin-top: 120px;
+  font-size:35px
+}
+
+
+
+/*.git-text{
+  text-align: center;;
+  color: white;
+  font-family: monospace;
+  margin-top: 60px
+}
+
+#contact .btn{
+  background: white;
+  border-color: white;
+  color: black;
+  font-family: monospace;
+  border-radius: 20px;
+  text-align: center;
+  width: 15%;
+  height: 45px;
+  font-size: 1.5vw;
+  transition: 0.8s;
+  padding-top: 7px;
+  margin-top: 40px
+}
+
+#contact .btn:hover{
+  background-color: #b8bec6
+}*/
+
+
+
+
+#icon{
+  height: 10vw;
+  margin-top: 20px
+}
+.fa-instagram:hover{
+  color: red;
+  transition: 0.8s
+
+}
+.fa-github:hover{
+  color: black;
+  transition: 0.8s
+}
+
+.fa-facebook-square:hover{
+  transition: 0.8s;
+  color: #29487d
+}
+
+.fa-envelope-o:hover{
+  color: #56a835;
+  transition: 0.8s
+}
+
+.fa-linkedin-square:hover{
+  color: #0084bf;
+  transition: 0.8s
+}
+
+
+#icons-div{
+  height: 200px;
+}
+
+
+
+
+
+@media all and (min-width:992px) and (max-width:1198px){
+.sec3{
+  height: auto;
+}
+
+#skill-art{
+  height: 900px;
+}
+
+
+
+.sec4{
+  height: 1300px;
+}
+
+
+
+}
+
+
+@media all and (min-width:768px) and (max-width:991px){
+.sec3{
+  height: auto;
+}
+
+.sec4{
+  height: 1100px;
+}
+
+#skill-art{
+  height: 1500px;
+}
+footer{
+  height: 500px;
+}
+
+}
+
+
+
+
+/*
+}
+
+@media all and (min-width:900px) and (max-width:980px){
+.sec3{
+  background: blue;
+  height: auto;
+}
+
+#skill-art{
+  height: 170vw;
+}
+
+}
+
+
+@media all and (min-width:768px) and (max-width:900px){
+.sec3{
+  background: yellow;
+  height: auto;
+}
+
+#skill-art{
+  height: 190vw;
+}
+
+}*/
+
+
+
+
+
+@media all and (min-width:602px) and (max-width:767px){
+  #type{
+    margin-top: 100px;
+  }
+
+  #type .btn{
+    font-size: 13px;
+
+
+
+  }
+  #text-about,#text2-about{
+    height: auto;
+  }
+
+  #text-about h1{
+    color: white;
+    font-size: 30px
+
+  }
+
+   #text2-about h4{
+     color: white;
+     font-size: 20px
+   }
+
+  .sec1{
+    height: 64vw
+
+  }
+
+  .sec2{
+    height: 540px;
+  }
+
+  .sec3{
+    height: 1800px;
+
+
+  }
+
+  .sec4{
+    height: 450vw;
+
+  }
+
+  footer{
+    height: 450px
+  }
+
+  .image{
+    height: 55vw
+  }
+
+  .devicons {
+  font-size: 5rem;
+}
+
+#sajjad{
+  float: left
+}
+.tous{
+  font-size: 0.9rem
+}
+
+}
+
+@media all and (min-width: 482px) and (max-width:600px)  {
+  #type{
+    margin-top: 100px;
+    height: 50px;
+  }
+
+#type .btn{
+  font-size: 14px;
+  width:152px
+}
+
+.sec3{
+  height: 370vw;
+}
+
+.sec2{
+  height: 550px
+}
+
+.sec4{
+  height: 450vw;
+
+}
+
+
+footer{
+  height: 450px
+}
+
+.image{
+  height: 50vw
+}
+
+#text-about h1{
+  font-size: 2.5rem
+}
+
+#text2-about h4{
+  font-size: 1.6rem;
+}
+
+
+
+
+#text-about , #text2-about{
+  height: auto;
+}
+
+  #sajjad{
+    float: left
+  }
+
+  .tous{
+    font-size: 0.9rem
+  }
+}
+
+@media all and (max-width: 480px) {
+  .sec1{
+    height: 580px;
+
+
+  }
+
+  .sec2{
+    height: 720px
+  }
+
+  .sec3{
+    height: 1990px;
+  }
+
+  .sec4{
+    height:1700px;
+  }
+
+  .image {
+    display: block;
+    height: 45vw;
+  }
+
+  #icon-skills{
+    margin-top: 40px
+  }
+  #type{
+    margin-top: 200px;
+    height: 50px;
+  }
+  #type .typewrite{
+    font-size: 25px
+  }
+  #type .btn{
+    font-size: 10px;
+    width: 112px
+  }
+  #text-about{
+    height: auto;
+  }
+  #art-about{
+    height: auto;
+    margin: 15px 0 0
+  }
+
+  #text2-about{
+    margin-top: 10px;
+    height: auto;
+  }
+
+  #text-about p{
+    font-size: 1.5rem
+  }
+
+  #text2-about p{
+    font-size: 1.2rem
+  }
+
+
+  #sajjad{
+    float: left
+  }
+  .tous{
+    font-size: 0.9rem
+  }
+
+  footer{
+    height: 550px
+  }
+
+  .text{
+    font-size: 1rem
+  }
+
+  }
